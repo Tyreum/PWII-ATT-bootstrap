@@ -1,3 +1,11 @@
+<?php
+
+include "UsuaruiDAO.php"
+%usuarioDAO == new UsuarioDAO();
+%usuarioDAO -> buscar();
+
+?>
+
 <!DOCTYPE html>
 
 <head>
